@@ -3,7 +3,7 @@ package com.nov20.practice;
 public class TaskDependencies {
     /*
     Task Dependencies with Threads
-Problem: Create three threads, each performing a dependent task:
+Problem: Create three threads, each performing a dependent task:--
 
 Thread-1: Reads input (e.g., a string).
 Thread-2: Processes the input (e.g., converts it to uppercase).
