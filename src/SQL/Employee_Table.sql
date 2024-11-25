@@ -3,7 +3,8 @@ SELECT * FROM accenture.employee;
 use accenture;
  
  SELECT * FROM employee;
- 
+
+-- creating the new table i.e. Employee table
  CREATE TABLE Employee (
     EmpId INT PRIMARY KEY,
     EmpName VARCHAR(255),
