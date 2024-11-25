@@ -1,5 +1,6 @@
 SELECT * FROM accenture.employee;
 
+-- changing database directory
 use accenture;
  
  SELECT * FROM employee;
