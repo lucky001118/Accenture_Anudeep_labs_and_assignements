@@ -15,6 +15,7 @@ use accenture;
     EmpState VARCHAR(255)
 );
 
+-- inserting data into the Employee table
 INSERT INTO Employee (EmpId, EmpName, EmpDepartment, EmpJoiningDate, EmpSalary, EmpCity, EmpState) VALUES
 (1, 'Rajesh Kumar', 'IT', '2020-06-15', 75000.50, 'Bangalore', 'Karnataka'),
 (2, 'Neha Sharma', 'HR', '2021-04-22', 60000.00, 'Mumbai', 'Maharashtra'),
