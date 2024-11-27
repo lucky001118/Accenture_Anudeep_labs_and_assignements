@@ -11,7 +11,7 @@ public class DuplicateRemove {
 
     /*
     my task is to remove the duplicate element in the
-    ----> the LinkedHashSet is responsible has property that to don't contain the duplicate
+    ----> the LinkedHashSet  has property that to don't contain the duplicate and maintains insertion order
      */
     public void revomeDuplicate(){
         Integer [] array = {4,5,7,8,5,4,7,8};
@@ -22,6 +22,7 @@ public class DuplicateRemove {
         //saving the result after remove the duplicate number
         Integer [] resultArray = linkedHashSet.toArray(new Integer[0]);
 
+        //printing the non-duplicate array
         System.out.println("Arrays with not duplicate "+Arrays.toString(resultArray));
     }
 
