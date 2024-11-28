@@ -57,8 +57,8 @@ This repository is for educational purposes under the guidance of **Anudeep Foun
 ## 📧 Contact
 
 For queries or suggestions, you can reach out to me via:
-- **Email**: [Your Email]
-- **GitHub**: [Your GitHub Profile]
+- **Email**: manikpurilucky218@gmail.com
+- **GitHub**: lucky001118
 
 ---
 
