@@ -35,7 +35,7 @@ The repository is organized into the following folders:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<repository-name>.git
+   git clone https://github.com/lucky001118/Accenture_Anudeep_labs_and_assignements.git
    ```
 2. Navigate to the required folder to explore the tasks and solutions.
 3. Open files using your preferred IDE or text editor to review or edit.
@@ -65,4 +65,4 @@ For queries or suggestions, you can reach out to me via:
 ### Thank you for visiting this repository! 😊
 ```
 
-Make sure to replace placeholders like `<your-username>` and `[Your Email]` with your actual details. Let me know if you'd like to customize it further!
+Make sure to replace placeholders like `<your-username>` and manikpurilucky218@gmail.com with your actual details. Let me know if you'd like to customize it further!
