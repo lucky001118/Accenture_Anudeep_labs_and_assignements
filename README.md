@@ -25,7 +25,7 @@ The repository is organized into the following folders:
 
 ## 💻 Technologies Used
 
-- **Programming Languages**: [Java]
+- **Programming Languages**: Java
 - **Tools & Frameworks**: [Java, SQL, MySQL Database]
 - **Other Resources**: [Intellij Idea, VS Code, MySQL Workbanch]
 
