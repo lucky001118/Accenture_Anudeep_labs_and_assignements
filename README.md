@@ -1,3 +1,4 @@
+
 # Anudeep Foundation Labs and Assignments Repository
 
 This repository contains all the practices, labs, and assignments provided by the **Anudeep Foundation**. It is organized to help track progress, document learnings, and provide easy access to completed tasks and exercises.
@@ -34,6 +35,8 @@ The repository is organized into the following folders:
 ## 📂 About JDBC
 
 Before JDBC, ODBC API was the database API to connect and execute the query with the database. But ODBC API uses ODBC driver that is written in C language (i.e. platform dependent and unsecured). That is why Java has defined its own API (JDBC API) that uses JDBC drivers (written in Java language).
+
+
 ---
 
 ## 🔖 How to Use This Repository
