@@ -71,5 +71,3 @@ For queries or suggestions, you can reach out to me via:
 
 ### Thank you for visiting this repository! 😊
 ```
-
-
