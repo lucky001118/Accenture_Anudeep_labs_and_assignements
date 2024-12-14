@@ -72,4 +72,4 @@ For queries or suggestions, you can reach out to me via:
 ### Thank you for visiting this repository! 😊
 ```
 
-Make sure to replace placeholders like `<your-username>` and manikpurilucky218@gmail.com with your actual details. Let me know if you'd like to customize it further!
+
