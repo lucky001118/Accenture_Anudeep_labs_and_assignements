@@ -4,7 +4,7 @@ class Parent
 
 {
 
-    // Comments for the Parent class
+    // Comments 
     
     System.out.println("Parent class");
 
