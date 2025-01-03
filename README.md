@@ -31,6 +31,12 @@ The repository is organized into the following folders:
 
 ---
 
+## 📂 About JDBC
+
+Before JDBC, ODBC API was the database API to connect and execute the query with the database. But ODBC API uses ODBC driver that is written in C language (i.e. platform dependent and unsecured). That is why Java has defined its own API (JDBC API) that uses JDBC drivers (written in Java language).
+
+---
+
 ## 🔖 How to Use This Repository
 
 1. Clone the repository:
@@ -64,5 +70,3 @@ For queries or suggestions, you can reach out to me via:
 
 ### Thank you for visiting this repository! 😊
 ```
-
-Make sure to replace placeholders like `<your-username>` and manikpurilucky218@gmail.com with your actual details. Let me know if you'd like to customize it further!

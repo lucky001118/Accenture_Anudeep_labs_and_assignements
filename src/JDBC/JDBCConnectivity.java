@@ -4,8 +4,8 @@ import java.sql.*;
 public class JDBCConnectivity {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/lucky";
-        String user = "root";
-        String password = "Lucky@server2002";
+        String user = "root";  // your MySQl database username in my casw root is my username
+        String password = "Lucky@server2002";  // your MySQL database password in my case Lucky@server2002 is my password
 
         try {
             // Load the JDBC Driver
