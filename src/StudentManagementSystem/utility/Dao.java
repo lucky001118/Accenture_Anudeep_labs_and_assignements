@@ -1,23 +1,23 @@
-package JDBC.daoParttern;
+package StudentManagementSystem.utility;
+
+import JDBC.daoParttern.ConnectionFactory;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-
-// this ConnectionFactory class is going to the singleton class
-public class ConnectionFactory {
+public class Dao {
 
     String driverClassName = "com.mysql.jdbc.Driver";
-    String connectionUrl = "jdbc:mysql://localhost:3306/student_ajp";
+    String connectionUrl = "jdbc:mysql://localhost:3306/anudeep_student_management_system";
     String dbUser = "root";
     String dbPwd = "Lucky@server2002";
 
     // making the connectionFactory object for the making the connection
-    private static ConnectionFactory connectionFactory = null;
+    private static Dao dao = null;
 
     //loading the driver class with the help of the connectionFactory
-    private ConnectionFactory() {
+    private Dao() {
         try {
             // loading the driver class of jdbc
             Class.forName(driverClassName);
@@ -33,11 +33,10 @@ public class ConnectionFactory {
         return conn;
     }
 
-    public static ConnectionFactory getInstance() {
-        if (connectionFactory == null) {
-            connectionFactory = new ConnectionFactory();
+    public static Dao getInstance() {
+        if (dao == null) {
+            dao = new Dao();
         }
-        return connectionFactory;
+        return dao;
     }
-
 }

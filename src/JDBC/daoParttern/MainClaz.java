@@ -19,6 +19,10 @@ public class MainClaz {
         student.delete(7);
     // Updating Data
         student.update(tinkoo);
+
+        System.out.println();
+        System.out.println("------------------------ Data from my database -------------------------------");
+        System.out.println();
     // Displaying Data
         student.findAll();
     }
