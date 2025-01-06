@@ -14,17 +14,17 @@ public class StudentServiceImpl implements StudentService {
     private StudentDao studentDao = new StudentDaoImpl();
     @Override
     public String registerStudent(Student student) throws StudentException {
-        return null;
+        return studentDao.registerStudent(student);
     }
 
     @Override
     public String deleteStudent(Integer rollNumber) throws StudentException {
-        return null;
+        return studentDao.deleteStudent(rollNumber);
     }
 
     @Override
     public String updateStudent(Student student) throws StudentException {
-        return null;
+        return studentDao.updateStudent(student);
     }
 
     @Override
