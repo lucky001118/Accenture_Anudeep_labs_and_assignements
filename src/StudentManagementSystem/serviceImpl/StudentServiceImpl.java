@@ -31,4 +31,9 @@ public class StudentServiceImpl implements StudentService {
     public List<Student> getAllStudents() throws StudentException {
         return studentDao.getAllStudents();
     }
+
+    @Override
+    public Student getStudentByRollNumber(Integer rollNumber) throws StudentException {
+        return studentDao.getStudentByRollNumber(rollNumber);
+    }
 }

@@ -19,4 +19,7 @@ public interface StudentDao {
     //get the all the student
     public List<Student> getAllStudents() throws StudentException;
 
+    // get the student using the roll number
+    public Student getStudentByRollNumber(Integer rollNumber) throws StudentException;
+
 }

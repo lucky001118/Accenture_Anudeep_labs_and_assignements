@@ -89,4 +89,31 @@ public class StudentDaoImpl implements StudentDao {
 
         return allStudents;
     }
+
+    @Override
+    public Student getStudentByRollNumber(Integer rollNumber) throws StudentException {
+        Student student = new Student();
+
+        try(Connection con = Dao.getInstance().getConnection()){
+            String query = "Select * from student WHERE RollNo = ?";
+            PreparedStatement ps = con.prepareStatement(query);
+            ps.setInt(1,rollNumber);
+            ResultSet rs = ps.executeQuery();
+
+
+            while(rs.next()){
+                System.out.println(rs.getInt(1)+", "+rs.getString(2)+", "+rs.getString(3));
+
+                student.setRollNo(rs.getInt(1));
+                student.setName(rs.getString(2));
+                student.setAddress(rs.getString(3));
+            }
+
+        }catch (SQLException e){
+            e.printStackTrace();
+            System.out.println(e);
+        }
+
+        return student;
+    }
 }

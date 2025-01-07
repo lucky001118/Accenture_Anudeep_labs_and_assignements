@@ -12,7 +12,7 @@ public class StudentAllOperation {
     private StudentService studentService = new StudentServiceImpl();
 
     public void allOps(){
-        System.out.println("click 1 for register student \n "+"click 2 for all student \n "+" click 3 for delete particular student \n "+" click 4 for update the student ");
+        System.out.println("click 1 for register student \n "+"click 2 for all student \n "+" click 3 for delete particular student \n "+" click 4 for update the student \n "+" click 5 for get student by roll number: ");
         int choise = sc.nextInt();
 
         switch (choise){
@@ -57,6 +57,12 @@ public class StudentAllOperation {
                 updatestudent.setAddress(updateStAddress);
 
                 studentService.updateStudent(updatestudent);
+                break;
+            case 5:
+                System.out.println("Enter the roll number of the student whose you wants to see record: ");
+                int rollStudentSigle = sc.nextInt();
+
+                studentService.getStudentByRollNumber(rollStudentSigle);
                 break;
 
             default:
