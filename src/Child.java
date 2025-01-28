@@ -6,6 +6,7 @@ class Child extends Parent
 
 {
 
+    //child class
     System.out.println("Child class");
 
 }
