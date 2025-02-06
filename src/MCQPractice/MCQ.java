@@ -8,7 +8,6 @@ public class MCQ{
 //        try{
 //
 //            int y= 5, j=0;
-//
 //            System.out.print(y=y/0 + " ");
 //
 //        }catch(Exception e)
