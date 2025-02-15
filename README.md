@@ -1,4 +1,4 @@
-ni# Anudeep Foundation Labs and Assignments Repository
+# Anudeep Foundation Labs and Assignments Repository
 
 This repository contains all the practices, labs, and assignments provided by the **Anudeep Foundation**. It is organized to help track progress, document learnings, and provide easy access to completed tasks and exercises.
 
