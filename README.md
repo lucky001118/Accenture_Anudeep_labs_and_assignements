@@ -72,5 +72,3 @@ For queries or suggestions, you can reach out to me via:
 ```
 
 
-
-
